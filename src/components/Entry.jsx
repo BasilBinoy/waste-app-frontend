@@ -43,19 +43,19 @@ const Entry = () => {
                 <div className="row g-3">
                     <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                         <label htmlFor="" className="form-label">name</label>
-                        <input type="text" className="form-control" name='vistorName' value={input.Name} onChange={inputHandler}/>
+                        <input type="text" className="form-control" name='Name' value={input.Name} onChange={inputHandler}/>
                     </div>
                     <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label htmlFor="" className="form-label">Phone</label>
-                    <input type="text" className="form-control"  name='vistorPhone' value={input.Phone} onChange={inputHandler}/>
+                    <input type="text" className="form-control"  name='Phone' value={input.Phone} onChange={inputHandler}/>
                     </div>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label htmlFor="" className="form-label">street</label>
-                    <input type="text" className="form-control" name='PurposeOfVisit' value={input.Street} onChange={inputHandler} />
+                    <input type="text" className="form-control" name='Street' value={input.Street} onChange={inputHandler} />
                     </div>
                     <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label htmlFor="" className="form-label">House</label>
-                    <input type="text" className="form-control"name='vistorAadhar' value={input.House} onChange={inputHandler} />
+                    <input type="text" className="form-control"name='House' value={input.House} onChange={inputHandler} />
                     </div>
 
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
